@@ -1,0 +1,28 @@
+mysql>create database Reva;
+mysql>use Reva;
+mysql> create table supplier (SUPPLIER_ID varchar (20) , SUPPLIER_NAME varchar(20) not null, PRODUCTS
+varchar(20) not null, QUANTITY varchar(20) not null, ADDRESS varchar(20), CITY varchar(20), PHONE_NO
+integer(20) not null, PINCODE varchar(20), primary key(SUPPLIER_ID));
+Query OK, 0 rows affected
+mysql> insert into supplier values("111","amar","pen","20","peenya","bangalore",12345678,560057);
+Query OK, 1 row affected (0.01 sec)
+mysql> insert into supplier values("222","akbar","pencil","20","peenya","bangalore",12345678,560057);
+Query OK, 1 row affected (0.01 sec)
+mysql> insert into supplier values("333" ,"anthnony" ,"pencil" ,"20" ,"peenya" ,"bangalore" ,12345688
+,560057);
+Query OK, 1 row affected (0.01 sec)
+mysql> insert into supplier values("444","mahi","eraser","25","jharkand","bengal",12675688,650078);
+Query OK, 1 row affected (0.01 sec)
+mysql> insert into supplier values("555","manya","book","25","jharkand","bengal",12699988,650078);
+Query OK, 1 row affected (0.01 sec)
+mysql> insert into supplier values("666" ,"manyata" ,"sharpner" ,"25" ,"hebbal", "bangalore" ,99699988 ,650078);
+Query OK, 1 row affected (0.01 sec)
+mysql> insert into supplier values("888" ,"jennifer" ,"sharpner" ,"25" ,"hebbal" ,"bangalore" ,89699988 ,789098);
+Query OK, 1 row affected (0.01 sec)
+insert into supplier values("999","joyes","chart","25","agra","delhi",89688548,324098) ;
+Query OK, 1 row affected (0.01 sec)
+insert into supplier values("000","suchitra","pen pencil","25","agra","delhi",89666548,324099);
+Query OK, 1 row affected (0.01 sec)
+insert into supplier values("1111","hemcheth","choclate","25","bidadi","mandya",9654321,234199);
+Query OK, 1 row affected (0.01 sec)
+mysql> select * from supplier;
